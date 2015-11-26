@@ -1,0 +1,69 @@
+# git ignore files
+
+# binary files
+*.o
+*.lo
+*.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
+*.a
+*.pyc
+*.pyo
+*.class
+
+# temporary/history files & dirs
+*.swp
+*~.nib
+.cache/
+tmp/
+
+# other scm files/dirs
+.svn
+.cvs
+
+# OSX files/dirs
+.DS_Store
+.Trash/
+.CFUserTextEncoding
+.crash_*
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+Sites/
+
+# xcode files
+.cocoapods/
+xcuserdata
+
+# ruby
+.gem
+.rvm
+.bundle
+.bundler
+
+# java
+.gradle/
+
+# atom editor
+.atom/.apm/
+.atom/packages/
+.atom/storage/
+.atom/compile-cache/
+
+# other
+.AndroidStudio*/
+.dropbox/
+.dropbox-master/
+.putty/
+.subversion/
+.vim/
+.viminfo
+Dropbox/

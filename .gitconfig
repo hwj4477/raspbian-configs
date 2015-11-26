@@ -1,0 +1,27 @@
+#
+# .gitconfig
+#
+# by hwj4477@gmail.com
+#
+# last update : 2015.11.13
+#
+
+
+[user]
+	name = hwj4477
+	email = hwj4477@gmail.com
+[credential]
+	helper = osxkeychain
+[alias]
+	ci = commit
+	st = status
+	br = branch
+	last = log -1 HEAD
+[push]
+	default = matching
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
