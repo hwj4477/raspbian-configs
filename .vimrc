@@ -14,10 +14,13 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim 
 call vundle#begin()
 
-    Plugin 'gmarik/Vundle.vim' "required
-    Plugin 'tpope/vim-fugitive' "required
+    Plugin 'gmarik/Vundle.vim'
+    Plugin 'tpope/vim-fugitive'
     Plugin 'tpope/vim-sensible' 
     Plugin 'vim-ruby/vim-ruby'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'tpope/vim-rails'
+    Plugin 'tpope/vim-markdown'
 
 call vundle#end()            
 filetype plugin indent on " Put your non-Plugin stuff after this line
