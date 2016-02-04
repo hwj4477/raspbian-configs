@@ -21,6 +21,7 @@ call vundle#begin()
     Plugin 'scrooloose/nerdtree'
     Plugin 'tpope/vim-rails'
     Plugin 'tpope/vim-markdown'
+    Plugin 'christoomey/vim-system-copy'
 
 call vundle#end()            
 filetype plugin indent on " Put your non-Plugin stuff after this line
