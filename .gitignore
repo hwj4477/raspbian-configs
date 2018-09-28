@@ -67,3 +67,12 @@ xcuserdata
 .vim/
 .viminfo
 Dropbox/
+workspace/
+.bash_history
+.bash_logout
+.dbshell
+.gnupg/
+.profile
+.wget-hsts
+bin/duckdns/
+bin/wakeup/

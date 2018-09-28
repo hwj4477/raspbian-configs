@@ -58,6 +58,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # ruby
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+[[ -s /usr/local/rvm/scripts/rvm ]] && source /usr/local/rvm/scripts/rvm
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# golang
+export GOPATH=$HOME/workspace/go
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
